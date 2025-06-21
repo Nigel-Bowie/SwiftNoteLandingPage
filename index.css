@@ -1,0 +1,48 @@
+body{
+    margin: 0;
+    padding: 20px;
+    width: 100%;
+    height: 100%;
+    font-family: "Times New Roman", Times, Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+header {
+    width: 1450px;
+    color: white;
+    padding: 20px;
+    margin-left: 400px;
+    text-align: left;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #333;
+    font-size: bold;
+}
+
+p {
+    color: #555;
+    line-height: 1.6;
+}   
+
+.hero{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.hero-snapshot {
+    width: 50%;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;  
+    background-color: aqua;
+    border-radius: 5px;
+}
