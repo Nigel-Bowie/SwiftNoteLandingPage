@@ -1,6 +1,7 @@
+/*MAIN CSS FILE FOR THE PROJECT*/
 body{
     margin: 0;
-    padding: 20px;
+    padding: 1.25rem;
     width: 100%;
     height: 100%;
     font-family: "Times New Roman", Times, Arial, sans-serif;
@@ -9,16 +10,21 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    overflow-x: hidden;
+    overflow-y: auto;
 }
 
+
+/* Header Styles */
 header {
-    width: 1450px;
+    width: 90.625rem;
     color: white;
-    padding: 20px;
-    margin-left: 400px;
-    text-align: left;
+    padding: 1.25rem;
+    margin: .25rem;
+    text-align: center;
 }
 
+/*General Styles*/
 h1, h2, h3, h4, h5, h6 {
     color: #333;
     font-size: bold;
@@ -29,20 +35,93 @@ p {
     line-height: 1.6;
 }   
 
+/* Hero Section Styles */
 .hero{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    gap: 20px;
+    justify-content: space-evenly;
+    gap: 1.25rem;
+    padding: 2rem;
 }
 
 .hero-snapshot {
-    width: 50%;
-    padding: 20px;
+    width: 40%;
+    padding: 1.25rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 1.25rem;  
+    background-color: aqua;
+    border-radius: 0.3125rem;
+}
+
+/*FEATURES SECTION STYLES*/
+.features{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 1.25rem;
+    padding: 2rem;
+}
+
+.feature-list-container {
+    display: flex;
+    flex-direction: row;
+    gap: 1.25rem;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 1.25rem;
+}
+
+.feature-list {
+    width: 10rem;
+    background-color: #fff;
+    border: 0.0625rem solid #eee;
+    border-radius: 0.3125rem;
+    padding: 0.9375rem;
+    box-shadow: 0 0.125rem 0.3125rem rgba(0, 0, 0, 0.1);
+}
+
+/*HOW IT WORKS SECTION STYLES*/
+.how-it-works-steps {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: .25rem;
+    padding: 2rem;
+
+}
+
+/*TESTIMONIALS SECTION STYLES*/
+.testimonials {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 1.25rem;
+    padding: 2rem;
+}
+
+.testimonials-list {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    gap: 20px;  
-    background-color: aqua;
-    border-radius: 5px;
+    gap: 1.25rem;
+}
+
+/*CTA SECTION STYLES*/
+.cta {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: rgb(69, 14, 252);
+    padding: 2rem;
+    border-radius: 0.3125rem;
+}
+
+/*FOOTER STYLES*/
+.footer {
+    padding: 2rem;
+    color: white;
+    text-align: center;
 }
