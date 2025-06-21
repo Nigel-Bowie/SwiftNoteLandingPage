@@ -1,91 +1,86 @@
-# 📝 SwiftNote – Landing Page
+    # 📝 SwiftNote – Landing Page
 
-Welcome to the SwiftNote landing page repository!  
-This is a modern, responsive, and clean website built to promote the SwiftNote app—a powerful note-taking tool for staying organized, productive, and creative.
+    Welcome to the SwiftNote landing page repository!  
+    This is a modern, responsive, and clean ladning page built to promote the SwiftNote app—a powerful note-taking tool for staying organized, productive, and creative.
 
----
+    ---
 
-## 🚀 Live Demo
+    ## 🚀 Live Demo
 
-👉 [View Live Website](https://yourdomain.com)  
-(*Replace with your actual URL*)
+    👉 [View Live Website](https://yourdomain.com)  
+    (*Replace with your actual URL*)
 
----
+    ---
 
-## 📌 Features
+    ## 📌 Features
 
-- ✨ Clean, modern UI with responsive design  
-- 🧠 Clear presentation of key features  
-- 🧑‍💬 Testimonial section with real user feedback  
-- 📷 Custom visuals and profile illustrations  
-- 🎯 Strong call-to-action for app download or sign-up  
-- 🌙 Optional dark mode toggle (if implemented)
+    - ✨ Clean, modern UI with responsive design  
+    - 🧠 Clear presentation of key features  
+    - 🧑‍💬 Testimonial section with real user feedback  
+    - 📷 Custom visuals and profile illustrations  
+    - 🎯 Strong call-to-action for app download or sign-up  
+    - 🌙 Optional dark mode toggle (if implemented)
 
----
+    ---
 
-## 📂 Project Structure
+    ## 📂 Project Structure
 
-```bash
-SwiftNote-Landing/
-│
-├── index.html          # Main HTML file
-├── style.css           # Stylesheet
-├── script.js           # Optional JS (e.g. form, animations)
-├── /images             # All images and SVG assets
-└── README.md           # You're here!
-🛠️ Tech Stack
-HTML5
 
-CSS3 (with Flexbox & Grid)
+    SwiftNote-Landing/
+    │
+    ├── index.html          # Main HTML file
+    ├── style.css           # Stylesheet
+    ├── script.js           # Optional JS (e.g. form, animations)
+    ├── /images             # All images and SVG assets
+    └── README.md           # You're here!
+    🛠️ Tech Stack
+    HTML5
 
-JavaScript (optional for interactivity)
+    CSS3 (with Flexbox & Grid)
 
-Google Fonts or custom typefaces
+    JavaScript (optional for interactivity)
 
-Font Awesome for icons
+    Google Fonts or custom typefaces
 
-📸 Screenshots
-You can insert preview images or GIFs here.
+    Font Awesome for icons
 
-✍️ Example Content
-Hero Headline:
-"Capture Your Thoughts. Anytime. Anywhere."
+    📸 Screenshots
+    You can insert preview images or GIFs here.
 
-CTA Buttons:
+    ✍️ Example Content
+    Hero Headline:
+    "Capture Your Thoughts. Anytime. Anywhere."
 
-Get Started
+    CTA Buttons:
 
-Try It Free
+    Get Started
 
-Download App
+    Try It Free
 
-Testimonial Sample:
+    Download App
 
-“The simplest, fastest note app I’ve ever used. I never lose a thought anymore.”
-— Maya R., Designer
+    Testimonial Sample:
 
-📦 Installation & Development
-To run locally:
+    “The simplest, fastest note app I’ve ever used. I never lose a thought anymore.”
+    — Maya R., Designer
 
-bash
-Copy
-Edit
-git clone https://github.com/yourusername/swiftnote-landing.git
-cd swiftnote-landing
-open index.html
-To make changes, just edit the index.html, style.css, or script.js as needed.
+    📦 Installation & Development
+    To run locally:
 
-📢 Contributing
-Want to contribute or improve the design?
-Feel free to fork this repo and submit a pull request.
+    git clone https://github.com/nigel-bowie/swiftnote-landing.git
+    cd swiftnote-landing
+    open index.html
+    To make changes, just edit the index.html, style.css, or script.js as needed.
 
-🧾 License
-This project is licensed under the MIT License.
+    📢 Contributing
+    Want to contribute or improve the design?
+    Feel free to fork this repo and submit a pull request.
 
-💬 Contact
-Have questions or suggestions?
-Reach out via your-email@example.com or open an issue.
+    🧾 License
+    This project is licensed under the MIT License.
 
-vbnet
-Copy
-Edit
+    💬 Contact
+    Have questions or suggestions?
+    Reach out via nigelbowiesd@gmail.com or open an issue.
+
+    
