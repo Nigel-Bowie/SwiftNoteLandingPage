@@ -45,6 +45,10 @@ p {
     line-height: 1.6;
 }   
 
+img{
+    border-radius: 50%;
+}
+
 /* Hero Section Styles */
 .hero{
     display: flex;
@@ -145,10 +149,21 @@ button {
     color: white;
     font-size: 1rem;
     font-weight: bolder;
-    width: 10rem;
+    width: 15rem;
     text-decoration: none;
-    border-radius: 0.3125rem;
+    border-radius: 0.3125rem;  
     transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+    cursor: pointer;
+}
+
+#get-started {
+    background-color: #28a745;
+    margin: 3rem;
+    text-transform: uppercase;
 }
 
 /*FOOTER STYLES*/
@@ -171,4 +186,89 @@ button {
 .footer a:hover {
     text-decoration: underline;
 }
-/* MEDIA QUERIES */
+
+
+/* Responsive Design */
+
+/* Mobile First Approach */
+@media (max-width: 767px) {
+    body {
+        padding: 0.625rem;
+        font-size: 0.875rem;
+    }
+
+    .hero {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .hero-snapshot {
+        width: 100%;
+        flex-direction: row;
+        align-items: flex-start;
+    }
+
+    .feature-list-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .feature-list {
+        width: 70%;
+        margin: 0.625rem 0;
+    }
+
+    .how-it-works-steps {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .testimonials-list {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .cta {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer {
+        padding: 1rem;
+        font-size: 0.875rem;
+    }
+
+    .footer a {
+        font-size: 0.875rem;
+    }
+
+    button, #watch-demo, #get-started {
+        align-self: center;
+        padding: 0.625rem;
+        margin: 1rem auto;
+        font-size: 1rem;
+        display: block;
+    }
+
+    #watch-demo {
+        background-color: #ffc107;
+    }
+
+    #get-started {
+        background-color: #28a745;
+    }
+
+}
+
+/* Styles for tablets */
+@media (min-width: 768px) and (max-width: 1023px) {
+  
+}
+
+/* Styles for larger tablets and small desktops */
+@media (min-width: 1024px) {
+  
+}
+
+
