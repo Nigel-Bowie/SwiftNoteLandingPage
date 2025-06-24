@@ -1,3 +1,5 @@
+/*LARGE SCREENS FIRST DESIGN APPROACH*/
+
 /*MAIN CSS FILE FOR THE PROJECT*/
 body{
     margin: 0;
@@ -263,12 +265,49 @@ button:hover {
 
 /* Styles for tablets */
 @media (min-width: 768px) and (max-width: 1023px) {
-  
+    body {
+        padding: 1.25rem;
+        font-size: 1rem;
+    }
+
+    .hero {
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    .hero-snapshot {
+        width: 50%;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    .feature-list-container {
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    .feature-list {
+        width: 30%;
+    }
+
+    .how-it-works-steps {
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    .testimonials-list {
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    button, #watch-demo, #get-started {
+        padding: 0.625rem 1.25rem;
+        margin: 1rem auto;
+        font-size: 1rem;
+    }
+
 }
 
-/* Styles for larger tablets and small desktops */
-@media (min-width: 1024px) {
-  
-}
+
 
 
